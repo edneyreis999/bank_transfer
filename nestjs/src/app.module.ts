@@ -40,4 +40,4 @@ import { ConsoleModule } from 'nestjs-console';
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule { }
+export class AppModule {}

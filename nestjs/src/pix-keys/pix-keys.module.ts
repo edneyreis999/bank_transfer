@@ -18,7 +18,7 @@ import { ConfigService } from '@nestjs/config';
           transport: Transport.GRPC,
           options: {
             url: configService.get('GRPC_URL'),
-            package: 'github.com.codeedu.codepix',
+            package: 'github.com.edneyreis999.bank_transfer',
             protoPath: [join(__dirname, 'proto/pix.proto')],
           },
         }),

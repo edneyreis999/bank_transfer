@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package github.com.codeedu.codepix;
+package github.com.edneyreis999.bank_transfer;
 
 option go_package = "protofiles;pb";
 
